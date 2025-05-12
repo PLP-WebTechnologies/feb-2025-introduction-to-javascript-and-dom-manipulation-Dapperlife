@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive DOM Demo</h1>
+    </header>
+
+    <main>
+        <section id="text-section" class="demo-section">
+            <h2>Text Content Modification</h2>
+            <p id="dynamic-text">Click the button to change this text.</p>
+            <button id="change-text-btn">Change Text</button>
+        </section>
+
+        <section id="style-section" class="demo-section">
+            <h2>Style Modification</h2>
+            <div id="style-box" class="demo-box">This box will change style</div>
+            <button id="change-style-btn">Change Style</button>
+            <button id="reset-style-btn">Reset Style</button>
+        </section>
+
+        <section id="element-section" class="demo-section">
+            <h2>Element Management</h2>
+            <div id="element-container">
+                <p class="list-item">Initial item</p>
+            </div>
+            <button id="add-element-btn">Add Item</button>
+            <button id="remove-element-btn">Remove Item</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>DOM Manipulation Example © 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
